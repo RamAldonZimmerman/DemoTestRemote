@@ -1,0 +1,66 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11120\viewh13360\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Git/GitHub Fundamentals:\
+\
+10/18/2018\
+\
+
+\b0 Distributed, source control system\
+Fast, can work disconnected, 
+\b branching, 
+\b0 \
+\
+Disadvantages: It\'92s different > multiple local levels and a remote (traditional > 1 working copy > pushed to main)\
+Best from command line\
+Large binary files are an issue with GIT (?)\
+\
+What is 
+\b GitHub
+\b0 ? > Hosting service for GIT repositories > runs on top of GIT, adds extra services\
+\
+
+\b Base Concepts of GIT:\
+
+\b0 Distributed (vs Centralized source control)\
+\
+
+\b Centralized: 
+\b0 central copy of source on server\
+In a centralized system, you work with change sets, number of changes that are to be treated as a whole\
+\
+
+\b Distributed: 
+\b0 dev clones entire repository on local machine, does not require central repository (but there can be one - GitHub)\
+\
+3 States of GIT:\
+Committed - stored in local database\
+Modified -changed, not committed to local database\
+Staged - tagged to be in clued in next commit snapshot\
+\
+3 Areas of GIT:\
+Working directory\
+\
+Staging area (changes from local are staged before getting committed\
+\
+GIT Repo - repository controlled by GIT\
+\
+Remote repo GitHub (4th area)\
+\
+
+\b Command line
+\b0  is the way to go.\
+\
+git config - configure the tooling\
+git init - initial a git repo locally\
+git clone - download a project from remote\
+git add - prepare file to staging\
+git commit - commits to local git repository\
+\
+\
+\
+}
